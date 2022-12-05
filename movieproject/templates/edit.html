@@ -1,0 +1,8 @@
+<body style="background-color:#00203FFF">
+<form style="background-color:#ADEFD1FF;" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form.as_p}}
+  <input type="submit">
+
+</form>
+</body>
